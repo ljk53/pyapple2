@@ -1,0 +1,9 @@
+[flake8]
+max-line-length = 120
+extend-ignore = E203,E501,E741
+per-file-ignores =
+    **/tests/*.py:F401,E402,E266
+    src/keyboard_ios.py:F403,F405
+    src/display_ios.py:F811
+    src/keyboard_curses.py:F811
+exclude = .git,__pycache__,3rd-party

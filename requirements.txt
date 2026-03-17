@@ -1,0 +1,10 @@
+# Runtime dependencies
+pygame>=2.5.0
+numpy>=1.24.0
+
+# Development dependencies
+pytest>=7.4.0
+ruff>=0.1.0
+black>=24.0
+mypy>=1.0
+flake8>=6.0
